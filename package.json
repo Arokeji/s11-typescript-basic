@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "transpile": "tsc src/casas.ts src/cuentas.ts --outDir dist",
+    "start": "node index.js"
+  }
+}
